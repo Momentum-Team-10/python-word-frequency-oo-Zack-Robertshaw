@@ -34,7 +34,7 @@ class WordList:
         self.text = self.text.replace("?", " ")
         self.text = self.text.replace(":", " ")
         self.text = self.text.replace("’", "")
-        self.text = self.text.replace("-", " ")
+        self.text = self.text.replace("-", "V")
         self.text = self.text.replace("\n", "R")
         self.text = self.text.lower()
         self.text = self.text.split(' ')
